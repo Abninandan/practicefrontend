@@ -1,0 +1,23 @@
+:root {
+  --sans: 'Aptos', 'Segoe UI Variable', 'Segoe UI', sans-serif;
+  font-family: var(--sans);
+  color: #39463f;
+  background: #f5f6f3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 360px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button, input, select { font: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #6aab87; outline-offset: 2px; }
+::selection { color: #173a32; background: #cbe2ca; }
